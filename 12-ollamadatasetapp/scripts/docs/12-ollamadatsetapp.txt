@@ -1,0 +1,17 @@
+12. Ollma (C#):
+    12.1.  https://docs.unsloth.ai/basics/datasets-guide
+    12.2.  https://docs.unsloth.ai/basics/chat-templates
+    12.3.  https://docs.unsloth.ai/basics/tutorials-how-to-fine-tune-and-run-llms/tutorial-how-to-finetune-llama-3-and-use-in-ollama
+    12.4.  https://github.com/ekatraone/alpaca-dataset-generator
+    12.5.  https://ollama.com/search
+    12.6.  https://github.com/huggingface/datasets
+    12.7.  https://huggingface.co/recogna-nlp/bode-7b-alpaca-pt-br
+    12.8.  https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard
+    12.9.  https://huggingface.co/rhaymison/Llama-3-portuguese-Tom-cat-8b-instruct
+    12.10. https://huggingface.co/nicholasKluge/TeenyTinyLlama-460m
+    12.11. https://huggingface.co/nicholasKluge/TeenyTinyLlama-460m-Chat
+    12.12. https://huggingface.co/datasets/nicholasKluge/instruct-aira-dataset-v2
+    12.13. https://huggingface.co/cnmoro/Mistral-7B-Portuguese
+    12.14. https://huggingface.co/datasets/cnmoro/WizardVicuna-PTBR-Instruct-Clean
+    12.15. https://github.com/meta-llama/synthetic-data-kit
+    12.16. https://huggingface.co/learn/cookbook/en/fine_tune_chatbot_docs_synthetic

@@ -1,0 +1,73 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "vite-launch",
+			"dependsOn": [
+				"vite-stop",
+				"vite-run"
+			],
+			"dependsOrder": "sequence"
+		},
+		{
+			"label": "vite-run-script",
+			"type": "npm",
+			"script": "dev",
+			"path": "spavueviteapp/ClientApp",
+			"problemMatcher": "$tsc-watch",
+			"presentation": {
+				"reveal": "always",
+				"revealProblems": "onProblem"
+			}
+		},
+		{
+			"label": "vite-run",
+			"type": "process",
+			"command": "vite",
+			"isBackground": true,
+			"args": [
+				"${workspaceFolder}/spavueviteapp/ClientApp"
+			],
+			"problemMatcher": [
+				{
+					"pattern": [
+						{
+							"regexp": ".",
+							"file": 1,
+							"location": 2,
+							"message": 3
+						}
+					],
+					"background": {
+						"activeOnStart": true,
+						"beginsPattern": ".",
+						"endsPattern": ".",
+					}
+				}
+			]
+		},
+		{
+			"label": "vite-stop",
+			"command": "npx",
+			"type": "shell",
+			"args": [
+				"kill-port",
+				"5173"
+			],
+			"problemMatcher": "$tsc"
+		},
+		{
+			"label": "dotnet-build",
+			"type": "dotnet",
+			"task": "build",
+			"file": "${workspaceFolder}/spavueviteapp/spavueviteapp.csproj",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$msCompile"
+			]
+		}
+	]
+}

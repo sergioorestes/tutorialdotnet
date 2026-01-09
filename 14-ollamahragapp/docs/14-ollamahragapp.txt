@@ -1,0 +1,3 @@
+14. Ollma (C#):
+    14.1. https://github.com/simodev25/deepseek-rag-psql/tree/main
+    14.2. https://docs.llamaindex.ai/en/stable/examples/embeddings/ollama_embedding/

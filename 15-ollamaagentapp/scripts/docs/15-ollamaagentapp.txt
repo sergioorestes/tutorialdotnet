@@ -1,0 +1,5 @@
+15. Ollma (C#):
+    15.1. https://github.com/aws/amazon-ec2-instance-selector
+    15.2. https://www.nuget.org/packages/OllamaSharp/3.0.14
+    15.3. https://learn.microsoft.com/en-us/dotnet/ai/quickstarts/chat-local-model
+    15.4. https://github.com/awaescher/OllamaSharp

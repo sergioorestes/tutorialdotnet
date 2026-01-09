@@ -1,0 +1,13 @@
+3. Dotnet (MacOS/C#):
+    3.1.  https://xunit.net/
+    3.2.  https://xunit.net/docs/comparisons
+    3.3.  https://docs.aws.amazon.com/lambda/latest/dg/lambda-csharp.html
+    3.4.  https://github.com/aws/aws-lambda-dotnet
+    3.5.  https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
+    3.6.  https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/lambda-cli-publish.html
+    3.7.  https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html
+    3.8.  https://docs.aws.amazon.com/cli/latest/reference/lambda/invoke.html
+    3.9.  https://docs.aws.amazon.com/lambda/latest/dg/csharp-handler.html
+    3.10. https://docs.aws.amazon.com/sdkfornet/v3/apidocs/items/Lambda/MLambdaInvokeInvokeRequest.html
+    3.11. https://docs.aws.amazon.com/sdkfornet1/latest/apidocs/html/T_Amazon_Runtime_AWSCredentials.htm
+    3.12. https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/deserialization

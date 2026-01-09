@@ -1,0 +1,12 @@
+4. Dotnet (S3):
+    4.1.  https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+    4.2.  https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+    4.3.  https://docs.aws.amazon.com/IAM/latest/UserGuide/reference-arns.html
+    4.4.  https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/csharp_s3_code_examples.html
+    4.5.  https://docs.aws.amazon.com/AmazonS3/latest/userguide/notification-content-structure.html
+    4.6.  https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingMetadata.html
+    4.7.  https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html
+    4.8.  https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
+    4.9.  https://docs.aws.amazon.com/lambda/latest/api/API_Invoke.html
+    4.10. https://github.com/bobbyiliev/introduction-to-bash-scripting/blob/main/ebook/en/content/018-working-with-json-in-bash-using-jq.md
+

@@ -1,0 +1,11 @@
+1. Patterns (OOP):
+    1.1.  https://www.postsharp.net/solutions/aspect-oriented-programming
+    1.2.  https://www.postsharp.net/solutions/design-patterns
+    1.3.  https://www.csharp.com/UploadFile/damubetha/solid-principles-in-C-Sharp/
+    1.4.  https://www.csharp.com/article/factory-design-pattern-in-c-sharp/
+    1.5.  https://www.csharp.com/UploadFile/cda5ba/dependency-injection-di-and-inversion-of-control-ioc/
+    1.6.  https://www.csharp.com/article/builder-design-pattern/
+    1.7.  https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection
+    1.8.  https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-9.0
+    1.9.  https://learn.microsoft.com/en-us/dotnet/communitytoolkit/mvvm/ioc
+    1.10. https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm

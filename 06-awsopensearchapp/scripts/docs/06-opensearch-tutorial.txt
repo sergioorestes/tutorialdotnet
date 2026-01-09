@@ -1,0 +1,3 @@
+6. Dotnet (Opensearch):
+    6.1.  https://opensearch.org/docs/latest/clients/dot-net/
+    6.2.  https://opensearch.org/docs/latest/clients/OSC-dot-net#installing-opensearchclient

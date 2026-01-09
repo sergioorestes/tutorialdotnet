@@ -1,0 +1,9 @@
+13. Ollma (C#):
+    13.1.  https://www.nomic.ai
+    13.2.  https://www.nomic.ai/blog/posts/nomic-embed-text-v1
+    13.3.  https://huggingface.co/docs/transformers/en/model_doc/rag
+    13.4.  https://huggingface.co/blog/ngxson/make-your-own-rag
+    13.5.  https://huggingface.co/nomic-ai/nomic-embed-text-v1.5
+    13.6.  https://huggingface.co/blog/not-lain/rag-chatbot-using-llama3
+    13.7.  https://www.elastic.co/search-labs/blog/building-a-rag-system-with-gemma-hugging-face-elasticsearch
+    13.8.  https://huggingface.co/cnmoro/bert-tiny-embeddings-english-portuguese

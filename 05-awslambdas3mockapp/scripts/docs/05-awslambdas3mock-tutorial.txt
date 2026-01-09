@@ -1,0 +1,5 @@
+5. Dotnet (MacOS/C#):
+    5.1. https://github.com/devlooped/moq
+    5.2. https://github.com/devlooped/moq/wiki/Quickstart#events
+    5.3. https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/dotnetv3/S3
+

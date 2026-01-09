@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4RbZjQ5SPUuBV7faagm0+0loRC0G5c1DrteZ8yk6hGUiWK6t3XXefD35d3W6KHeDNXtiGm0z3qlWL+9szcaxwg==",
+  "success": true,
+  "projectFilePath": "/home/user/projects/tutorialdotnetlocal/10-spavueviteapp/spavueviteapp/spavueviteapp.csproj",
+  "expectedPackageFiles": [
+    "/home/user/.nuget/packages/vite.aspnetcore/2.4.1/vite.aspnetcore.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

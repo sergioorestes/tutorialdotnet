@@ -1,0 +1,4 @@
+3. CodeCommit (Git):
+    3.1. https://docs.aws.amazon.com/codecommit/latest/userguide/setting-up-ssh-unixes.html
+    3.2. https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
+    3.3. https://docs.aws.amazon.com/codecommit/latest/userguide/how-to-mirror-repo-pushes.html

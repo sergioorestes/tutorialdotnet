@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA3CCEA5-DB97-456E-9297-5F52125C2091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "awslambdas3app", "src\awslambdas3app\awslambdas3app.csproj", "{4AA9FC95-571B-47C8-89E6-87AFAFE7D6DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6DA88C34-CA11-4CDD-AA05-E520CE2B477E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "awslambdas3app.Tests", "test\awslambdas3app.Tests\awslambdas3app.Tests.csproj", "{A953964C-9D68-47EC-8BBD-813E4B1CE87D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AA9FC95-571B-47C8-89E6-87AFAFE7D6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA9FC95-571B-47C8-89E6-87AFAFE7D6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA9FC95-571B-47C8-89E6-87AFAFE7D6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA9FC95-571B-47C8-89E6-87AFAFE7D6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A953964C-9D68-47EC-8BBD-813E4B1CE87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A953964C-9D68-47EC-8BBD-813E4B1CE87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A953964C-9D68-47EC-8BBD-813E4B1CE87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A953964C-9D68-47EC-8BBD-813E4B1CE87D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AA9FC95-571B-47C8-89E6-87AFAFE7D6DC} = {DA3CCEA5-DB97-456E-9297-5F52125C2091}
+		{A953964C-9D68-47EC-8BBD-813E4B1CE87D} = {6DA88C34-CA11-4CDD-AA05-E520CE2B477E}
+	EndGlobalSection
+EndGlobal

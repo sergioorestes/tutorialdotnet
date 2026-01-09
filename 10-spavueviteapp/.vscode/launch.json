@@ -1,0 +1,61 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Firefox Launch & Debug (Default)",
+            "configurations": [
+                ".NET Core Launch (web)",
+                ".NET Firefox Launch (Default)"
+            ],
+            "order": "sequential"
+        }
+    ],
+    "configurations": [
+        {
+            "name": ".NET Firefox Launch (Default)",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "firefoxExecutable": "/opt/firefox/firefox",
+            "firefoxArgs": [
+                "-start-debugger-server",
+                "-no-remote"
+            ],
+            "preLaunchTask": "vite-launch",
+            "url": "http://localhost:5000",
+            "webRoot": "${workspaceFolder}/spavueviteapp/ClientApp",
+            "reloadOnAttach": true,
+            "reloadOnChange": {
+                "watch": [
+                    "${workspaceFolder}/spavueviteapp/ClientApp/**/*.js",
+                    "${workspaceFolder}/spavueviteapp/ClientApp/**/*.ts",
+                    "${workspaceFolder}/spavueviteapp/ClientApp/**/*.vue"
+                ],
+                "ignore": [
+                    "${workspaceFolder}/mpavueviteapp/ClientApp/node_modules/**"
+                ]
+            },
+        },
+        {
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "dotnet-build",
+            "program": "${workspaceFolder}/spavueviteapp/bin/Debug/net8.0/spavueviteapp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/spavueviteapp/ClientApp",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart",
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/spavueviteapp/Views"
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+   "Records":[
+      {
+         "eventVersion":"2.2",
+         "eventSource":"aws:s3",
+         "awsRegion":"us-west-2",
+         "eventTime":"1970-01-01T00:00:00.000Z",
+         "eventName":"s3Event",
+         "userIdentity":{
+            "principalId":"AKIA56KOIXMUXDGZN37B"
+         },
+         "requestParameters":{
+            "sourceIPAddress":"127.0.0.1"
+         },
+         "responseElements":{
+            "x-amz-request-id": null,
+            "x-amz-id-2": null
+         },
+         "s3":{
+            "s3SchemaVersion":"1.0",
+            "configurationId":"s3EventRule",
+            "bucket":{
+               "name":"tutorial-04-awslambdas3app",
+               "ownerIdentity":{
+                  "principalId":"AKIA56KOIXMUXDGZN37B"
+               },
+               "arn":"arn:aws:s3:::tutorial-04-awslambdas3app"
+            },
+            "object":{
+               "key": "text.txt",
+               "size": 26,
+               "eTag": "textTag",
+               "versionId": null,
+               "sequencer": null
+            }
+         }
+      }
+   ]
+}

@@ -1,0 +1,20 @@
+FROM { __FILE_LOCATION__ }
+
+TEMPLATE """Below are some instructions that describe some tasks. Write responses that appropriately complete each request.{{ if .Prompt }}
+
+### Instruction:
+{{ .Prompt }}{{ end }}
+
+### Response:
+{{ .Response }}<|endoftext|>"""
+
+PARAMETER stop "</s>"
+PARAMETER stop "<|end|>"
+PARAMETER stop "<|system|>"
+PARAMETER stop "<unk>"
+PARAMETER stop "<|user|>"
+PARAMETER stop "<|assistant|>"
+PARAMETER stop "<|endoftext|>"
+PARAMETER stop "<|placeholder"
+PARAMETER temperature 1.5
+PARAMETER min_p 0.1
